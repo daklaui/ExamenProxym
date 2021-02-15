@@ -1,0 +1,46 @@
+.grandTitre{
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 70px;
+color: #0B132A;
+}
+.section
+{
+    margin-top: 128px;
+}
+.titreNiveau2{
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+}
+.img{
+    width: 611.24px;
+height: 382.44px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .grandTitre{
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+/* or 169% */
+
+text-align: center;
+
+color: #0B132A;
+        }
+
+        .titreNiveau2{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #4F5665;
+            }
+}

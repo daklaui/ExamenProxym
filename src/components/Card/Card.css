@@ -1,0 +1,88 @@
+.card {
+    height: 760px;
+    width: 330px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    padding-top: 79.63px;
+    padding-bottom: 50px;
+    margin-bottom: 55px;
+    }
+    .card:hover{
+       
+background: #FFFFFF;
+border: 2px solid #F53838;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+    .checkboxes
+    {
+        margin-left: 75px;
+        margin-right: 60px;
+    }
+    .img_Card{
+        height: 165.37432861328125px;
+        width: 144.90435791015625px;
+        margin-left: 93px;
+        margin-right: 93px;
+     
+    }
+ 
+    .cardTitle {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #0B132A;
+        margin-top: 30px;
+    }
+
+    .priceFree {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        color: #0B132A;
+        text-align: center;
+        line-height: 30px;
+    }
+ .unite{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    color: #0B132A;
+    text-align: center;
+    line-height: 30px;
+ }
+    .btnSelect {
+        height: 45px;
+        width: 177.88px;
+        background-color: white;
+        border-radius: 50px;
+        font-style: normal;
+        font-weight: bold;
+        color:#F53838 ;
+        border: 2px solid #F53838;
+        box-sizing: border-box;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .btnSelect:hover {
+       
+background: #F53838;
+border: none;
+border-radius: 50px;
+color: white;
+box-shadow: 0px 20px 54px rgba(245, 56, 56, 0.35); 
+    }
+ 
+    .priceBtn {
+        align-items: center;
+        align-content: center;
+        align-self: center;
+       
+        margin-bottom: 50px;
+    }
+ 

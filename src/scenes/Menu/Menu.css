@@ -1,0 +1,176 @@
+
+header{
+    width: 100%;
+    max-width: 1440px;
+    margin-top: 57px;
+    align-items: center;
+
+}
+
+.navbar-toggler
+{
+    visibility: hidden;
+}
+#sidebar
+{
+    visibility: hidden;  
+}
+.logo
+{
+display: flex;
+align-items: center;
+margin-right: 150px;
+
+}
+.logo>.logo_img
+{
+    display: block;
+    width: 35px;
+height: 36.23px;
+margin-right: 10px;
+}
+.logo>.logo_text
+{
+
+width: 70px;
+height: 24px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #0B132A;
+}
+
+.logo>.logo_text_700
+{
+
+font-style: normal;
+font-weight: 700;
+
+}
+
+.navbar-nav>.nav-item{
+    margin-left: 20px;
+ }
+
+
+.nav_btn_sign-in{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;
+    }
+    .nav_btn_sign-up{
+        width: 150px;
+        height: 45px;
+        border: 1px solid #F53855;
+        box-sizing: border-box;
+        border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+        }
+       
+     
+        /* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {
+    width: 351px;
+    height: 823px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #FFFFFF;
+    box-shadow: 10px 0px 50px -9px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s;
+    padding-left: 23px;
+    padding-right: 17px;
+}
+
+#sidebar.active {
+    margin-left: -351px;
+}
+
+#sidebar .sidebar-header {
+  margin-top: 22px;
+  margin-right: 17px;
+  margin-bottom: 60px;
+}
+
+#sidebar ul li  {
+   margin-bottom: 27px;
+    
+}
+
+#sidebar ul li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4F5665;
+    
+}
+.nav_footer{
+    margin-top: 270px;
+ margin-left: 117px;
+
+}
+.vpn_navbar{
+margin-top: 30px;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 600px) {
+    .navbar-toggler
+{
+    visibility: visible;
+}
+#sidebar
+{
+    visibility: visible;  
+}
+.btn_nav{
+    display: none;
+}
+    #sidebar {
+        margin-left: -500px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+   
+    #sidebarCollapse span {
+        display: none;
+    }
+
+.nav_btn_sign-in{
+    padding-left: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0B132A;
+    margin-right: 32px;
+ 
+    }
+.nav_btn_sign-up{
+    width: 176.67px;
+      padding-left: 0px;
+    height: 53px;
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F53855;
+    }
+       
+}

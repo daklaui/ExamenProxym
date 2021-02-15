@@ -1,0 +1,119 @@
+.footer
+{
+height: 563.12px;
+background: #F8F8F8;
+padding-top: 187px;
+padding-left: 150px;
+padding-right: 170px;
+padding-bottom: 100px;
+}
+.logo
+{
+display: flex;
+align-items: center;
+margin-right: 150px;
+
+}
+.logo>.logo_img
+{
+    display: block;
+    width: 35px;
+height: 36.23px;
+margin-right: 10px;
+}
+.logo>.logo_text
+{
+
+width: 70px;
+height: 24px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #0B132A;
+}
+a:link{
+    text-decoration: none!important;
+  }
+.logo>.logo_text_700
+{
+
+font-style: normal;
+font-weight: 700;
+
+}
+
+.text_s_logo
+{
+width: 340px;
+height: 61.57px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+color: #4F5665;
+margin-top: 27px;
+}
+
+.logo_Social_Media
+{
+    margin-top: 30px;
+}
+
+
+
+  .icon-bg-white{
+    background: #FFF;
+    border-radius: 70px;
+    box-shadow: 0px 13px 18px rgba(17, 19, 35, 0.08);
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    }
+    .MyVPN{
+margin-top: 30px;
+width: 104px;
+height: 30px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+
+text-align: center;
+
+color: #AFB5C0;    
+    }
+
+    .titres{
+
+width: 102px;
+height: 30px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #0B132A;
+margin-bottom: 20px;
+   
+    }
+    .footerLinks{
+  
+    list-style:none;
+     padding-left:0;
+     margin:0 auto .8em auto;
+
+     
+       
+    }
+.footerLinks>li{  
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+margin-bottom: 10px;
+    }
